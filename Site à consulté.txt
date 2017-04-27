@@ -1,0 +1,24 @@
+Loi de coulomb : 
+https://fr.wikipedia.org/wiki/Loi_de_Coulomb_(m%C3%A9canique)
+
+Centre de gravité :
+https://fr.wikipedia.org/wiki/Centre_de_gravit%C3%A9
+
+Modélisations Mécanique d'un robot : 
+https://fr.wikipedia.org/wiki/Mod%C3%A9lisation_des_robot
+
+évaluation du mode de déplacement du robot : 
+http://www.isir.upmc.fr/files/2005ACLN613.pdf
+
+Le baricentre et ces formules : 
+ - http://villemin.gerard.free.fr/aScience/Physique/STATIQUE/CGDebut.htm
+(que la partie barycentre et centre de gravité.
+
+ - http://debart.pagesperso-orange.fr/1s/barycentre.html
+
+
+Calcul du couple d'un bras ou jambe robotique : 
+http://www.robotshop.com/blog/fr/tutoriel-du-couple-pour-un-bras-robotique-1653
+
+ça peut être sympa mais ne pas s'enfoncé trop dedans : (c'est pour les bipèdes)
+http://www.lirmm.fr/camin/wp-content/uploads/Thesis/FabienL.pdf
