@@ -3,7 +3,7 @@ Rendu 19 mai (j-15)
 Le ptut:
 mindmap : fait et corriger , il peut être agrandit au besoin //
 état de l'art peut être affiné néanmoins nous possédons déjà une grande liste de robot ressemblant au robot Quattro et ayant une même base  //
-simulateur installé sur un des pcs (Axel et Lucas) possible tentative d'utiliisationpour des test préliminaires //
+simulateur installé sur un des pcs (Axel et Lucas) possible tentative d'utilisationpour des test préliminaires //
 
 
 Recherches en cours sur les différentes parties : 
