@@ -1,0 +1,18 @@
+4 capteurs de forces sur les épaules. > à utiliser pour vérifier la présence de sol sous la pate par exemple
+12 servomoteurs pour les articulations.
+chaque moteur -> 1 capteur de couple.(Valeurs qui varient rapidement)
+moyenne moins fiable (?) 
+contrôleur paramètrable.
+variable PID ( contrainte,0 , 0, contrainte sur la vitesse) (?)
+moteur mou / dur --- Compliant (false = dur / true = mou)
+avec le code déja disponible on peu agir sur les moteurs des jambes (via les primitives). >mouvements de base
+
+//commandes
+Dans le terminal : pip -V (version)
+pip install roboticia-quattro
+pip -U (update)
+
+
+from pypot.creatures import RoboticiaQuattro
+robot = RoboticiaQuattro(simulator = 'vrep') (pour le simulateur)
+robot = RoboticiaQuattro() (pour le modèle réel)
