@@ -8,15 +8,15 @@ Simulateur installé sur un des pcs (Axel et Lucas) possible tentative d'utilisa
 
 Recherches en cours sur les différentes parties : 
   - Partie physique : 
-    Détermination du centre de gravité et du baricentre.
-    Détermination des forces et de l'équilibre nécessaire au robot pour son bon déplacement.
-    Détermination du cycle de l'évolution des forces lors du mouvement.
-    Mise en place des fonctionnalités et charges dans le CDC.
+    - Détermination du centre de gravité et du baricentre.
+    - Détermination des forces et de l'équilibre nécessaire au robot pour son bon déplacement.
+    - Détermination du cycle de l'évolution des forces lors du mouvement.
+    - Mise en place des fonctionnalités et charges dans le CDC.
     
   - Partie programmme : 
-    Résoudre les problemes techniques rencontrés avec le simulateur.
-    Prise en main du simulateur suite au rendez-vous avec M. Jehl.
-    Tests sur le robot prévus.
+    - Résoudre les problemes techniques rencontrés avec le simulateur.
+    - Prise en main du simulateur suite au rendez-vous avec M. Jehl. 
+    - Tests sur le robot prévus.
    
 Mise en place du Cahier des Charges : 
   - Projection dans le temps (sur le semestre 3/4) sur les directions que le projet prendra.
