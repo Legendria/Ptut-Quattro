@@ -1,10 +1,10 @@
-Rendu 19 mai (j-15)
+Rendu du cdc 15 juin (J-28)
 
 Le ptut: 
 Mindmap : fait et corrigé , il peut être agrandi au besoin //
-Etat de l'art peut être affiné néanmoins nous possédons déjà une grande liste de robot ressemblant au robot Quattro et ayant une même base  //
-Simulateur installé sur un des pcs (Axel et Lucas) possible tentative d'utilisation pour des test préliminaires //
-
+Etat de l'art terminé, syntaxe incoming//
+Simulateur installé sur deux des pcs (Jikhai & Faudo) En cours de débug ... //
+Le focus actuel est sur le CDC.
 
 Recherches en cours sur les différentes parties : 
   - Partie physique : 
