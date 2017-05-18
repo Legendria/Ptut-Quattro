@@ -1,0 +1,43 @@
+Je peux pas simuler le truc, excellent :
+(il apparait quand même dans V-rep, mais jupyter renvoie une erreur)
+---------------------------------------------------------------------------
+VrepIOErrors                              Traceback (most recent call last)
+<ipython-input-2-136055f9da2f> in <module>()
+----> 1 robot = RoboticiaQuattro(simulator = 'vrep')
+
+C:\Users\axel_\Anaconda3\lib\site-packages\pypot\creatures\abstractcreature.py in __new__(cls, base_path, config, simulator, scene, host, port, id, use_snap, snap_host, snap_port, snap_quiet, use_http, http_host, http_port, http_quiet, use_remote, remote_host, remote_port, use_ws, ws_host, ws_port, start_background_services, sync, **extra)
+     97 
+     98                 try:
+---> 99                     poppy_creature = from_vrep(config, host, port, scene if scene != "keep-existing" else None)
+    100                 except VrepConnectionError:
+    101                     raise IOError('Connection to V-REP failed!')
+
+C:\Users\axel_\Anaconda3\lib\site-packages\pypot\vrep\__init__.py in from_vrep(config, vrep_host, vrep_port, scene, tracked_objects, tracked_collisions)
+     95 
+     96     vc = VrepController(vrep_io, scene, motors)
+---> 97     vc._init_vrep_streaming()
+     98 
+     99     sensor_controllers = []
+
+C:\Users\axel_\Anaconda3\lib\site-packages\pypot\vrep\controller.py in _init_vrep_streaming(self)
+    121         # And actually affect them
+    122         for m, p in zip(self.motors, pos):
+--> 123             self.io.set_motor_position(m.name, p)
+    124             m.__dict__['goal_position'] = rad2deg(p)
+    125 
+
+C:\Users\axel_\Anaconda3\lib\site-packages\pypot\vrep\io.py in set_motor_position(self, motor_name, position)
+    152                              self.get_object_handle(motor_name),
+    153                              position,
+--> 154                              sending=True)
+    155 
+    156     def get_motor_force(self, motor_name):
+
+C:\Users\axel_\Anaconda3\lib\site-packages\pypot\vrep\io.py in call_remote_api(self, func_name, *args, **kwargs)
+    357             msg = ' '.join([vrep_error[2 ** i]
+    358                             for i, e in enumerate(err) if e])
+--> 359             raise VrepIOErrors(msg)
+    360 
+    361         return res
+
+VrepIOErrors: No value
