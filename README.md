@@ -3,7 +3,7 @@ Rendu du cdc 15 juin (J-28)
 Le ptut: 
 Mindmap : fait et corrigé , il peut être agrandi au besoin //
 Etat de l'art terminé, syntaxe incoming//
-Simulateur installé sur deux des pcs (Jikhai & Faudo) En cours de débug ... //
+Simulateur installé sur deux des pcs (Axel & Lucas) En cours de débug ... //
 Le focus actuel est sur le CDC.
 
 Recherches en cours sur les différentes parties : 
